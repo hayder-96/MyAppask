@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.20"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-1707823485728314/6236704354">
+
+    </com.google.android.gms.ads.AdView>
+
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="72dp"
+        android:layout_weight="0.20"
+        android:background="@drawable/chan_se"
+        android:text="@string/text_ask"
+        android:textSize="@dimen/textSize"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginBottom="4dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <Button
+            android:id="@+id/but_den"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop_ask"
+            android:background="@drawable/chan_se"
+            android:drawableEnd="@drawable/mosque"
+            android:onClick="islam"
+            android:text="@string/islam"
+            android:textSize="@dimen/textSize"
+            tools:layout_editor_absoluteY="721dp" />
+
+        <Button
+            android:id="@+id/but_hist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop_ask"
+            android:background="@drawable/chan_se"
+            android:drawableEnd="@drawable/history_book"
+            android:onClick="history"
+            android:text="@string/history"
+            android:textSize="@dimen/textSize"
+            tools:layout_editor_absoluteY="652dp" />
+
+        <Button
+            android:id="@+id/but_sciences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop_ask"
+            android:background="@drawable/chan_se"
+            android:drawableEnd="@drawable/sciences"
+            android:onClick="sciences"
+            android:text="@string/sciences"
+            android:textSize="@dimen/textSize"
+            tools:layout_editor_absoluteY="652dp" />
+
+        <Button
+            android:id="@+id/but_spo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop_ask"
+            android:background="@drawable/chan_se"
+            android:drawableEnd="@drawable/ball"
+            android:onClick="sport"
+            android:text="@string/sport"
+            android:textSize="@dimen/textSize"
+            tools:layout_editor_absoluteY="652dp" />
+
+        <Button
+            android:id="@+id/but_geg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop_ask"
+            android:background="@drawable/chan_se"
+            android:drawableEnd="@drawable/earth"
+            android:onClick="geography"
+            android:text="@string/geography"
+            android:textSize="@dimen/textSize"
+            tools:layout_editor_absoluteY="652dp" />
+
+        <Button
+            android:id="@+id/but_act"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop_ask"
+            android:background="@drawable/chan_se"
+            android:drawableEnd="@drawable/movie"
+            android:onClick="actors"
+            android:text="@string/actor"
+            android:textSize="@dimen/textSize"
+            tools:layout_editor_absoluteY="652dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

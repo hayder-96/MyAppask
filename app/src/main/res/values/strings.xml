@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">اسئلة متنوعة</string>
+
+    <string name="text_answer">فتح جواب</string>
+    <string name="text_total_answer">0</string>
+    <string name="text_try">المحاولات</string>
+    <string name="number_try">5</string>
+    <string name="text_time">20</string>
+    <string name="point">3</string>
+
+    <string name="text_ask">اختر نوع الاسئلة</string>
+    <string name="islam">دينية</string>
+    <string name="history">تاريخية</string>
+    <string name="sport">رياضية</string>
+    <string name="sciences">علوم</string>
+    <string name="geography">جغرافية</string>
+    <string name="actor">فنية</string>
+
+
+    <string name="start">ابدا</string>
+    <string name="share">مشاركة</string>
+
+    
+    <string name="game_over">انتهت اللعبة</string>
+     <string name="select">هل تريد اعادة اللعبة او الخروج</string>
+    <string name="out">خروج</string>
+    <string name="try_game">اعادة اللعبة</string>
+    <string name="loser">لقد خسرت انتهت محاولاتك</string>
+    <string name="try_again">اعادة المحاولة</string>
+    
+    <string name="outer">خروج</string>
+    <string name="done">نعم</string>
+    <string name="no">لا</string>
+    <string name="no_point">لم يتبقى لديك نقاط قم بمشاهدة اعلان لاضافة نقطة</string>
+    <string name="open">الجواب الصحيح هو رقم</string>
+</resources>

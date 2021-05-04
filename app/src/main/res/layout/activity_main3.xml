@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/sea"
+    tools:context=".MainActivity3"
+    android:layout_height="match_parent">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-1707823485728314/6236704354"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/layout_width_time"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/marginTop_try"
+            android:textSize="@dimen/textSize_start"
+            android:onClick="start"
+            android:background="@drawable/answer"
+            android:text="@string/start" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/marginTop_try"
+            android:layout_marginTop="40dp"
+            android:textSize="@dimen/textSize_start"
+            android:onClick="share"
+            android:background="@drawable/answer"
+            android:text="@string/share" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
